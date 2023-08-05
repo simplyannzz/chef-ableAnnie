@@ -1,0 +1,132 @@
+
+:root {
+  --pinkie-melon: #d88b84;
+  --greenie-melon: #cbdd73;
+  --whiteness-melon: #ffffff;
+  --blackness-melon: #231520;
+}
+* {
+  font-family: "Coustard", serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: white;
+}
+nav .nav-wrapper {
+  position: relative;
+  height: 100px;
+  padding-top: 20px;
+}
+.nav-wrapper {
+  background-color: white;
+}
+nav ul a {
+  color: black;
+  border-radius: 5px;
+}
+nav ul a:hover {
+  background-color: #d88b84;
+  opacity: 80%;
+}
+
+h1 {
+  color: #d88b84;
+  font-size: 32px;
+  font-family: "coustard";
+  margin: 0;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+input[type="text"] {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 12px;
+  width: 300px;
+}
+.btn {
+  cursor: pointer;
+}
+button[type="submit"] {
+  background-color: #d88b84;
+  border: none;
+  border-radius: 8px;
+  color: #d88b84;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 12px 20px;
+  transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+  background-color: #d88b84;
+}
+
+#results {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 40px 0;
+}
+
+#results > div {
+  background-color:#d88b84;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px #d88b84(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#results img {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  box-shadow: #d88b84;
+}
+
+#results h3 {
+  color: black;
+  font-size: 24px;
+  font-family: "coustard";
+  margin: 0;
+}
+
+#results ul {
+  margin: 0;
+  padding: 0;
+}
+
+#results li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+#results a {
+  background-color: #cbdd73;
+  border-radius: 8px;
+  color: black;
+  font-size: 24px;
+  font-family: 'coustard';
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+#results a:hover {
+  background-color: #d88b84;
+}
+

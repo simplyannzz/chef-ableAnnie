@@ -1,0 +1,120 @@
+:root {
+  --pinkie-melon: #d88b84;
+  --greenie-melon: #cbdd73;
+  --whiteness-melon: #ffffff;
+  --blackness-melon: #231520;
+}
+* {
+  font-family: "Coustard", serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: white;
+}
+nav .nav-wrapper {
+  position: relative;
+  height: 100px;
+  padding-top: 20px;
+}
+.nav-wrapper {
+  background-color: white;
+}
+nav ul a {
+  color: black;
+  border-radius: 5px;
+}
+nav ul a:hover {
+  background-color: #d88b84;
+  opacity: 80%;
+}
+
+/* h1{
+  margin-top: 70px;
+} */
+
+
+.container{
+  width: 360px;
+}
+
+#inputField{
+  width: 400px;
+  height: 50px;
+  border: 1px solid #d88b84;
+  outline: black;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "coustard";
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+#addMeals{
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  font-size: 20px;
+  vertical-align: middle;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.favorite-meals{
+  margin-top: 25px;
+}
+
+.paragraph-styling{
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+h1{
+  font-family: "Coustard", serif;
+  color: #d88b84;
+  text-align: center;
+  font-size: 40px;
+   
+
+}
+/* favorite */
+.container{
+  width: 360px;
+}
+
+#inputField{
+  width: 400px;
+  height: 50px;
+  border: 1px solid #d88b84;
+  outline: black;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "coustard";
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+#addMeals{
+  width: 50px;
+  height: 50px;
+  border: 1px solid #d88b84;
+  font-size: 20px;
+  vertical-align: middle;
+  font-size: 30px;
+  display: flex;
+}
+
+.favorite-meals{
+  margin-top: 25px;
+}
+
+.paragraph-styling{
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+}

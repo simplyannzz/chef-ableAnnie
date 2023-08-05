@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="assets/css/favorites.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/css/recipes.css" />
+    <title>Food Finder</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <section>
+        <nav>
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo"></a><img src = "./assets/Logo/Artboard 3.png">
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./shopping.html">Shopping</a></li>
+                <li><a href="./recipe.html">Recipe</a></li>
+                <li><a href="./planner.html">Planner</a></li>
+                <li><a href="./about.html">About U</a></li>
+              </ul>
+            </div>
+          </nav>
+<!-- searchrecipe -->
+<div class="container">
+    <h1>Suggested Recipies</h1>
+    <form>
+      <input type="text" id="search" placeholder="Search ingredients" />
+      <button type="button" id="submit" class="btn">Search</button>
+    </form>
+    <div id="results"></div>
+  </div>
+
+<!-- favorite -->
+<!-- <div id="favorite">
+    <h1>Favorite Meals(Recipes)</h1>
+    <div class="container">
+      <input id="inputField" type="text" /><button id="addMeals">+</button>
+      <div class="to-dos" id="toDoContainer"></div>
+    </div>
+</div> -->
+    <!-- links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/js/recipes.js"></script>
+  </body>
+</html>
