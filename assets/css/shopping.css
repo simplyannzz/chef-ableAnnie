@@ -1,23 +1,52 @@
-body
-{
+:root {
   --pinkie-melon: #d88b84;
-  font-family: 'Coustard', serif;
+  --greenie-melon: #cbdd73;
+  --whiteness-melon: #ffffff;
+  --blackness-melon: #231520;
 }
-
+* {
+  font-family: "Coustard", serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: white;
+}
+nav {
+  margin-bottom: 30px;
+}
+nav .nav-wrapper {
+  position: relative;
+  height: 100px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
 .nav-wrapper {
+  background-color: white;
+}
+nav ul a {
+  color: black;
+  border-radius: 5px;
+}
+nav ul a:hover {
+  background-color: #d88b84;
+  opacity: 80%;
+}
+/* the little dot for image */
+.slider .indicators .indicator-item {
   background-color: var(--greenie-melon);
-  
 }
-.brand-logo
-{
-  position: absolute;
-  left: 500px;
+.slider .indicators .indicator-item.active {
+  background-color: var(--pinkie-melon);
 }
-
-#shopping-button {
+/* button for submit */
+.btn,
+.btn-large,
+.btn-small #shopping-button {
   padding: 5px;
   border-radius: 5px;
-  background-color: #289944;
+  background-color: var(--greenie-melon);
   font-weight: bold;
 }
 
@@ -43,65 +72,46 @@ body
 #shopping_list_array_weight {
   padding-right: 100px;
 }
-.image
-{
+.image {
   position: absolute;
   top: 80px;
   border-radius: 8px;
 }
-.shopping-display
-{
+.shopping-display {
   display: flex;
-  border: solid transparent;  
+  border: solid transparent;
   width: 500px;
 }
 
-#quantity-item
-{
+#quantity-item {
   position: absolute;
   margin-left: 440px;
 }
-#weight-item
-{
+#weight-item {
   position: absolute;
   margin-left: 360px;
 }
-.collection
-{
-  float: right;
 
+/* calories */
+#caloriesContainor{
+  background-color: #d88b84;
 }
-.buttonNext
-{
-  background-color: chocolate;
+.collection {
+  float: right;
 }
-#displayCalories
-{
+#displayCalories {
   display: flex;
   border: solid transparent;
   padding-left: 50px;
   align-items: center;
-  
 }
-#itemQuantity, #display-calorie
-{
+#itemQuantity,
+#display-calorie {
   padding-left: 50px;
 }
-#clear-button
-{
+#clear-button {
   margin-left: 200px;
 }
- #descriptionCalorie
-{
+#descriptionCalorie {
   padding-left: 50px;
 }
-
-
-
-
-
-
-
-
-
-  
