@@ -35,8 +35,9 @@ h1 {
   color: #d88b84;
   font-size: 32px;
   font-family: "coustard";
-  margin: 0;
+  margin: 100px;
   text-align: center;
+  font-size: 50px;
 }
 
 form {
@@ -57,7 +58,7 @@ input[type="text"] {
 .btn {
   cursor: pointer;
 }
-button[type="submit"] {
+/* button[type="submit"] {
   background-color: #d88b84;
   border: none;
   border-radius: 8px;
@@ -70,7 +71,7 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: #d88b84;
-}
+} */
 
 #results {
   display: grid;
@@ -128,5 +129,9 @@ button[type="submit"]:hover {
 
 #results a:hover {
   background-color: #d88b84;
+}
+.btn {
+  background-color: #cbdd73;
+  font-family: "Coustard", serif;
 }
 

@@ -5,7 +5,7 @@
   --blackness-melon: #231520;
 }
 body {
-  background-color: var(--pinkie-melon);
+  background-color: var(--whiteness-melon);
   font-family: "Coustard", serif;
 }
 nav .nav-wrapper {
@@ -22,6 +22,10 @@ nav ul a {
 main {
   position: relative;
   top: 40px;
+  padding-bottom: 20px;
+}
+h1 {
+  font-size: 50px;
 }
 .fortune-cookie {
   display: flex;
@@ -36,4 +40,7 @@ main {
   max-width: fit-content;
   margin-right: 10px;
   cursor: pointer;
+}
+.slider .indicators .indicator-item.active {
+  background-color: #cbdd73;
 }

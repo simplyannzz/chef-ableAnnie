@@ -65,7 +65,7 @@
         <ul class="slides">
           <li>
             <img
-              src="banner1.png"
+              src="./assets/image/banner2.jpg"
               alt="Oops!"
             />
             <div class="caption center-align white-text">
@@ -77,7 +77,7 @@
           </li>
           <li>
             <img
-              src="banner2.jpg"
+              src="./assets/image/banner2.jpg"
               alt="Oops!"
             />
             <div class="caption center-align white-text">
@@ -182,8 +182,8 @@
     <!-- Calorie section -->
     <section id="caloriesContainor">
       <section>
-        <div class="section pinkie-melon center">
-          <div class="row container center">
+        <div class="section white center">
+          <div id="caloriebox" class="row container center">
             <div class="col l6 m6 s12">
               <div style="width: 400px">
                 CALORIE COUNTER
@@ -213,16 +213,16 @@
                     >CLEAR</a
                   >
                 </div>
+                <div id = "description">
+                <span id="descriptionQuantity">Item Quantity = </span
+                  ><span id="itemQuantity"></span
+                  ><span id="descriptionCalorie">Calories = </span
+                  ><span id="display-calorie"></span>
+                  </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <section id="displayCalories">
-        <span id="descriptionQuantity">Item Quantity = </span
-        ><span id="itemQuantity"></span
-        ><span id="descriptionCalorie">Calories = </span
-        ><span id="display-calorie"></span>
       </section>
 
       <section class="infoModal">
@@ -244,7 +244,7 @@
         </div>
       </section>
     </section>
-    <footer>
+    <footer id ="allgeriesFooter">
       <span> Allergic, the Text is highlighted in </span
       ><span style="color: red">red* </span>
     </footer>

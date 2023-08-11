@@ -33,6 +33,9 @@ nav ul a:hover {
   background-color: #d88b84;
   opacity: 80%;
 }
+h1{
+  font-size: 50px;
+}
 /* the little dot for image */
 .slider .indicators .indicator-item {
   background-color: var(--greenie-melon);
@@ -91,11 +94,50 @@ nav ul a:hover {
   position: absolute;
   margin-left: 360px;
 }
+input:not([type]),
+input[type="text"]:not(.browser-default),
+input[type="password"]:not(.browser-default),
+input[type="email"]:not(.browser-default),
+input[type="url"]:not(.browser-default),
+input[type="time"]:not(.browser-default),
+input[type="date"]:not(.browser-default),
+input[type="datetime"]:not(.browser-default),
+input[type="datetime-local"]:not(.browser-default),
+input[type="tel"]:not(.browser-default),
+input[type="number"]:not(.browser-default),
+input[type="search"]:not(.browser-default),
+textarea.materialize-textarea {
+  border-bottom: 1px solid black;
+}
+label {
+  color: black;
+}
+input {
+  font-family: "Coustard", serif;
+}
+.descrip {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover {
+  background-color: var(--greenie-melon);
+}
 
 /* calories */
-#caloriesContainor{
+#caloriebox {
+  width: 90%;
   background-color: #d88b84;
+  padding: 50px;
+  display: flex;
 }
+#description {
+  padding-top: 50px;
+}
+/* #caloriesContainor {
+  background-color: #d88b84; */
+/* } */
 .collection {
   float: right;
 }
@@ -114,4 +156,12 @@ nav ul a:hover {
 }
 #descriptionCalorie {
   padding-left: 50px;
+}
+.btn {
+  margin-top: 30px;
+}
+#allgeriesFooter {
+  /* padding-left: 50px; */
+  text-align: center;
+  padding-bottom: 10px;
 }
