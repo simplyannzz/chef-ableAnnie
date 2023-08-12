@@ -12,6 +12,10 @@ nav .nav-wrapper {
   position: relative;
   height: 100px;
   padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 .nav-wrapper {
   background-color: var(--whiteness-melon);
@@ -43,4 +47,24 @@ h1 {
 }
 .slider .indicators .indicator-item.active {
   background-color: #cbdd73;
+}
+
+/* This the Media Query */
+/* Tablets  */
+@media only screen and (min-width: 992px) {
+  .hide-on-med-and-down {
+    display: flex !importantc;
+    flex-direction: row;
+  }
+}
+
+/* Large smartphones */
+@media screen and (max-width: 768px) {
+}
+
+/* Medium size device (Ipad) */
+@media screen and (max-width: 576px) {
+}
+/* Small Device: Viewports between 320px and 480px wide */
+@media only screen and (min-device-width: 320px) and (max-device-width: 510px) {
 }
