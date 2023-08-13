@@ -12,16 +12,17 @@ nav .nav-wrapper {
   position: relative;
   height: 100px;
   padding-top: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 }
 .nav-wrapper {
-  background-color: var(--whiteness-melon);
+  background-color: white;
 }
 nav ul a {
   color: black;
+  border-radius: 5px;
+}
+nav ul a:hover {
+  background-color: #d88b84;
+  opacity: 80%;
 }
 main {
   position: relative;
@@ -51,11 +52,7 @@ h1 {
 
 /* This the Media Query */
 /* Tablets  */
-@media only screen and (min-width: 992px) {
-  .hide-on-med-and-down {
-    display: flex !importantc;
-    flex-direction: row;
-  }
+/* @media only screen and (min-width: 992px) {
 }
 
 /* Large smartphones */
@@ -67,4 +64,5 @@ h1 {
 }
 /* Small Device: Viewports between 320px and 480px wide */
 @media only screen and (min-device-width: 320px) and (max-device-width: 510px) {
-}
+
+  } */

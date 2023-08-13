@@ -69,7 +69,7 @@ input {
 }
 .response {
   padding: 10px 0 20px 30px;
-  margin-top:50px ;
+  margin-top: 50px;
   border: 2px;
   background-color: white;
   border-radius: 5px;
@@ -79,6 +79,6 @@ input {
   background-color: #cbdd73;
 }
 #recordU {
-  color:#cbdd73;
+  color: #cbdd73;
   text-align: left;
 }

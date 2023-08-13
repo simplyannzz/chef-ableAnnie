@@ -7,23 +7,28 @@
 }
 /* Page color and font family */
 body {
-  background-color: var(--greenie-melon);
+  margin-top: 50px;
   font-family: "Coustard", serif;
 }
-/* Same navigation bar as all other pages */
 nav .nav-wrapper {
   position: relative;
   height: 100px;
   padding-top: 20px;
 }
 .nav-wrapper {
-  background-color: var(--whiteness-melon);
+  background-color: white;
 }
 nav ul a {
-  color: var(--blackness-melon);
+  color: black;
+  border-radius: 5px;
+}
+nav ul a:hover {
+  background-color: #d88b84;
+  opacity: 80%;
 }
 /* Lowers the main page content so it is visible below the nav bar */
 main {
+  background-color: var(--greenie-melon);
   margin-top: 40px;
 }
 /* Defines the spacing between the page title and dates card */

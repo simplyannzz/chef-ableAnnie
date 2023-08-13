@@ -13,14 +13,10 @@
 body {
   background-color: white;
 }
-nav {
-  margin-bottom: 30px;
-}
 nav .nav-wrapper {
   position: relative;
   height: 100px;
   padding-top: 20px;
-  margin-bottom: 30px;
 }
 .nav-wrapper {
   background-color: white;
@@ -33,7 +29,7 @@ nav ul a:hover {
   background-color: #d88b84;
   opacity: 80%;
 }
-h1{
+h1 {
   font-size: 50px;
 }
 /* the little dot for image */
